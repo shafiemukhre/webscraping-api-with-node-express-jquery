@@ -1,4 +1,4 @@
-# Web Scraping restful API built with Node Express and jQuery
+# Web Scraping Microservices API built with Node.js, Express and jQuery
 
 ## Live Demo
 
