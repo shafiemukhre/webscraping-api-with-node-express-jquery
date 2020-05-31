@@ -1,8 +1,23 @@
 # Web Scraping restful API built with Node Express and jQuery
 
+## Live Demo
+
+View live demo of API response here:
+
+https://covidapi.onrender.com/totalcases
+
+https://covidapi.onrender.com/recovered
+
+https://covidapi.onrender.com/cases
+
+## Data Source
+
+COVID-19 pandemic wikipedia webpage: https://en.wikipedia.org/wiki/COVID-19_pandemic
+
 ## Setup
 
 Run `npm install` to install dependencies
+
 Run `npm start` to start the server
 
 Make GET request to the following API endpoints to see the response
@@ -51,9 +66,6 @@ example response:
         "country": "Russia",
         "cases": "405843"
     },
-    .
-    .
-    .
 ]
 ```
 
