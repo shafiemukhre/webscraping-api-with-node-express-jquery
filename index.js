@@ -86,3 +86,8 @@ app.get('/cases', (req, res) => {
         );
     })
 })
+
+app.get('/', (req, res) => {
+    const viewAt = 'view at https://covidapi.onrender.com/totalcases https://covidapi.onrender.com/recovered https://covidapi.onrender.com/cases'
+    res.status(200).json(viewAt)
+})
